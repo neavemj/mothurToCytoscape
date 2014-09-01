@@ -27,7 +27,7 @@
 # place this script and the .shared file in the same folder
 # navigate to the folder in terminal, type R to start R, then type source('mothurToCytoscape.R') to run the script
 
-# import the shared file
+# import the mothur .shared file
 
 print("CYTOSCAPE LINKS FROM MOTHUR SHARED FILE", quote=F)
 print("Import your '.shared' file", quote=F) 
