@@ -64,11 +64,6 @@ analysisOTU[analysisOTU==1] <- NA
 #analysisOTU[analysisOTU==3] <- NA
 #analysisOTU[analysisOTU==4] <- NA
 #analysisOTU[analysisOTU==5] <- NA
-#analysisOTU[analysisOTU==6] <- NA
-#analysisOTU[analysisOTU==7] <- NA
-#analysisOTU[analysisOTU==8] <- NA
-#analysisOTU[analysisOTU==9] <- NA
-#analysisOTU[analysisOTU==10] <- NA
 
 analysisOTUnoO <- na.omit(analysisOTU)
 
@@ -76,7 +71,7 @@ site = 0
 
 
       ## LOOP 2 ## loops a single anchor site through the other sites in the otu      
-      # if statement 1 ensures the loop is only run if there is at least 1 OTU
+      # the if statement ensures the loop is only run if there is at least 1 OTU
         if (length(analysisOTUnoO[,2]) >0) {
         for (j in 1:(length(analysisOTUnoO[,2]))) {
       
