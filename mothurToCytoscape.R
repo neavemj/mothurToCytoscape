@@ -1,8 +1,26 @@
-## import files from 'shared' mothur file and convert to a cytoscape network file ##
+###############################################################################
 #
-# Created by Matthew J Neave on 12/04/2014.
-# Copyright (c) 2013 Matthew J Neave. All rights reserved.
-# mneave@whoi.edu; matthewjneave1@gmail.com
+#    mothurToCytoscape version 1.0
+#    
+#    takes a mothur 'shared' file and converts to a cytoscape network file
+#    
+#    Copyright (C) 2013 Matthew Neave
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+###############################################################################
+
 
 # A .shared file should be created in mothur using the make.shared command
 # the shared file columns should be 'label', 'group', 'numOTUs', then OTU count data. If not, some modification to the script will be required
