@@ -25,7 +25,7 @@
 # A .shared file should be created in mothur using the make.shared command
 # the shared file columns should be 'label', 'group', 'numOTUs', then OTU count data. If not, some modification to the script will be required
 # place this script and the .shared file in the same folder
-# navigate to the folder in terminal, type R to start R, then type source('mothurToCytoscape.R') to run the script
+# navigate to the folder in terminal, type R to start R, then type: source('mothurToCytoscape.R'), to run the script
 
 # import the mothur .shared file
 
